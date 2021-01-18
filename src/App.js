@@ -26,7 +26,7 @@ export default class App extends Component {
     amoutValue: 0,
     resValue: null
   }
-  
+
   changeValueFrom = (value) => {
     let fromValue = value;
     this.setState({ fromValue });
@@ -70,6 +70,8 @@ export default class App extends Component {
     }
     this.setState({ resValue: res });
   }
+
+  
 
   render() {
     return (
